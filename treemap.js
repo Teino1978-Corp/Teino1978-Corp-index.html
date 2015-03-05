@@ -39,7 +39,7 @@ var svg = d3.select("#chart").append("svg")
 
 var color = d3.scale.category20c()
 	.domain([0,100])
-	.range(['#fee5d9','#fcae91','#fb6a4a','#de2d26','#a50f15'])
+	.range(['#a50f15','#fee5d9','#fcae91','#fb6a4a','#de2d26'])
 	
 	// ['rgb(254,229,217)','rgb(252,174,145)','rgb(251,106,74)','rgb(222,45,38)','rgb(165,15,21)']
 
