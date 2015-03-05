@@ -7,8 +7,8 @@ if(parent.document.getElementsByTagName("iframe")[0]) {
 }
 
 var margin = {top: 20, right: 0, bottom: 0, left: 0},
-    width = 635,
-    height = 357 - margin.top - margin.bottom,
+    width = 800,
+    height = 600 - margin.top - margin.bottom,
     formatNumber = d3.format(".2s"),
     transitioning;
 
